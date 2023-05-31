@@ -20,7 +20,7 @@ body{
 nav{
     width: 100%;
     display: flex;
-    opacity: 90%;
+    opacity: 95%;
     position: sticky !important;
     font-size: 1.1rem;
     font-weight: 500;
@@ -28,7 +28,7 @@ nav{
     align-items: center;
     top: 0;
     left: 0;
-    box-shadow: 0px 5px 8px rgba(55, 54, 54, 0.55);
+    box-shadow: 0px 5px 8px rgba(21, 20, 20, 0.684);
     z-index: 3;
 }
 
@@ -67,13 +67,27 @@ nav{
 }
 .section-heading{
     color: rgb(255, 115, 8) !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins';
 }
+.form-label{
+    font-size: 1.rem;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+
 #coures .box{
     padding: 10px 10px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.314);
 }
 
-
+.h2{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
 
 /* forms */
 .form-area{
@@ -214,11 +228,17 @@ ul li a{
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    font-size: 20px;
-    color: #000;
-    background: #fff;
+    font-size: 30px;
+    color: #000000;
+    background: #a07777d8;
     margin-right: 20px;
     cursor: pointer;
+}
+
+.icons .fa-brands:hover{
+    background: #ffffff;
+    color:  #000000;
+    background-size: auto;
 }
 
 .hr{
@@ -453,11 +473,16 @@ ul li a{
         padding: 20px;
     }
 }
-@media only screen and (max-width:970px){
+@media only screen and (max-width:980px){
     .wrapper.active-popup{
         margin-left: 15rem;
     
     }
+    .section-heading{
+        font-size: 1rem;
+    }
+
+
 }
 
 @media only screen and (max-width:830px){
@@ -606,8 +631,8 @@ ul li a{
 @media only screen and (max-width:340px){
     .wrapper.active-popup{
         margin-left: 0.2rem;
-    
     }
+
     .wrapper{
         position: absolute;
         width: 300px;
